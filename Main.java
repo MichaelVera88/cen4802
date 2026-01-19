@@ -1,6 +1,11 @@
 public class Main
 {
-
+    
+    /**
+     * Method using recursion to find the specific term within the Fibonacci sequence.
+     * @param n Fibonacci sequence term
+     * @return Value for the given term
+     */
     public static int fib(int n)
     {
         if (n <= 1)
